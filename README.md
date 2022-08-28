@@ -5,12 +5,12 @@ sql-practice
 
 Window function allow sliding window frames
 
-<ul>Code</ul>
+<u>Code</u>
 SELECT <column_1>, <column_2>,
   OVER (
-    PARTITION BY <...>
-    ORDER BY <...>
-        <window_frame>) <window_column_alias>
+    PARTITION BY <...> 
+    ORDER BY <...> 
+        < sliding_window_frame >) <window_column_alias>
 FROM <table_name>;
 
 ROWS Clause: Syntax and Options
